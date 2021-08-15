@@ -1,0 +1,14 @@
+.country-info{
+    display: flex;
+    justify-content: left;
+}
+
+.country-flag {
+    margin-left: 30px;
+    width: 300px;
+    height: auto;
+}
+
+.language-item{
+    list-style-type: disclosure-closed;
+}
