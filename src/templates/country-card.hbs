@@ -1,4 +1,4 @@
-<div>{{#each this}}
+<div class="country-box">{{#each this}}
     <h2 class='country-name'>{{name}}</h2>
     <div class='country-info'>
       <ul>
@@ -9,7 +9,7 @@
             {{/each}}
           </ul></li>
       </ul>
-      <img class='country-flag' src='{{flag}}' alt='`The flag of {{name}}' />
+      <img class='country-flag' src='{{flags.svg}}' alt='`The flag of {{name}}' />
     </div>
   {{/each}}
 </div>
